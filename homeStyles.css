@@ -5,7 +5,17 @@
 }
 
 .navbar {
-    max-width: 700px;
+    max-width: 650px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.figure {
+    top: 20vh;
+    height: 70vh;
+}
+
+.figure img {
+    height: 100%;
+    width: 100%;
 }
