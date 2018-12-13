@@ -29,7 +29,7 @@
                     </li>
                 </ul>
             </nav>
-            <form action="/" class="form-signin text-center">
+            <form action="./user.html" class="form-signin text-center">
                 <h1 class="h3 mb-3 font-weight-light">Sign in</h1>
                 <label for="inputEmail" class="sr-only">Email address</label>
                 <input type="email" id="inputEmail" class="form-control mb-3" placeholder="Email address" required autofocus>
@@ -38,8 +38,11 @@
                 <div class="checkbox my-3">
                     <label><input type="checkbox" value="remember-me" class="mx-2">Remember me</label>
                 </div>
+                <p id="userMessage"></p>
                 <button type="submit" class="btn btn-outline-primary btn-lg">Submit <i class="fas fa-paper-plane"></i></button>
             </form>
         </main>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="./signInForm.js"></script>
     </body>
 </html>
